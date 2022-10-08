@@ -1,12 +1,32 @@
-.flexContainer{
+.flexContainer {
     display: flex;
-    /* flex-direction: column-reverse;
-    flex-direction: row; */
-    /* flex-direction: column; */
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+
+}
 
 
-/* 
 
+.flexContainer >p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+width: 300px;
+height: 40px;    
+padding: 50px;
 
+}
 
+#b1{
+background-color: aqua;
+flex: 1;
+}
+#b2{
+background-color: green;
+flex: 3;
+}
+#b3{
+background-color: pink;
+flex: 2
 }
